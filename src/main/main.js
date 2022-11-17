@@ -3,6 +3,8 @@ import '../App.scss';
 import Projects from '../Projects/Project';
 import Header from './header/header';
 import About from './about/about';
+import Comments from './comments/comment';
+
 
 function Main() {
   return (
@@ -10,6 +12,7 @@ function Main() {
         <Header/>
         <About/>
         <Projects/>
+        <Comments/>
     </div>
 
   );

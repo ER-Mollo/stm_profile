@@ -27,22 +27,14 @@ function Projects() {
          </div>
         
          <div className="project-content">
-            <div style={{ 'backgroundImage': `url(${images[0]})` }} className="select">
-                   <span>Slide 1</span>
+            
                    
-             </div>
-             <div style={{ 'backgroundImage': `url(${images[1]})` }} className="select">
-                   <span>Slide 2</span>
-             </div>
-             <div style={{ 'backgroundImage': `url(${images[2]})` }} className="select">
-                   <span>Slide 3</span>
-             </div>   
-             <div style={{ 'backgroundImage': `url(${images[3]})` }} className="select">
-                   <span>Slide 3</span>
-             </div>   
-             <div style={{ 'backgroundImage': `url(${images[4]})` }} className="select">
-                   <span>Slide 3</span>
-             </div>   
+                   <img src={image1} className="select"/>
+                   <img src={image2} className="select"/>
+                   <img src={image3} className="select"/>
+                   <img src={image4} className="select"/>
+                   <img src={image5} className="select"/>
+                   
          </div>
          {/* <div className='passage'>
 

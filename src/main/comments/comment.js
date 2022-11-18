@@ -19,8 +19,8 @@ function Comments() {
         
         {/* <Contact/> */}
         <div className="heading">
-            <h2>Recent Projects</h2>
-            <h1>Look At The Projects I Worked on</h1>
+            <h2>Feedback</h2>
+            <h1>hear is some of the feedback from my Clients</h1>
          </div>
          
          <Zoom className="slide">
